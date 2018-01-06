@@ -14,6 +14,9 @@ Install [docker-ce for mac](https://download.docker.com/mac/stable/Docker.dmg) -
 
 ## Getting Started
 
-    git clone 
+    git clone https://github.com/ppelayo/google-deepdream-docker.git
+
+Unzip bvlc_googlenet.caffemodel.zip and place the bvlc_googlenet.caffemodel in the /google-deepdream-docker folder
+
     docker build . -t <image name>
     docker run -p 127.0.0.1:8887:8888 <name of image>
