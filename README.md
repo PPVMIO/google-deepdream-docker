@@ -20,3 +20,5 @@ Unzip bvlc_googlenet.caffemodel.zip and place the bvlc_googlenet.caffemodel in t
 
     docker build . -t <image name>
     docker run -p 127.0.0.1:8887:8888 <name of image>
+
+When you see the server up and running, go to [localhost:8887](http://localhost:8887).  When prompted for a password enter the password 'demo'.  Navigate and find the dream.ipynb file.  This is a playground to edit and run google's deepdream visual project.
